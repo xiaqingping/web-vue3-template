@@ -1,0 +1,74 @@
+@import './base.css';
+
+* {
+    font-family: Inter, Microsoft Yahei, serif;
+}
+
+.fl-fdc-jcb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* 两端对齐 */
+}
+
+.flc {
+    display: flex;
+    align-items: center;
+}
+
+.flbc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flcc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: #F7F7F7;
+    font-size: 14px;
+}
+
+.page {
+    height: 100vh;
+    padding-bottom: 100px;
+    background: #F7F7F7;
+    overflow: hidden;
+}
+
+.line-1 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+.line-3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+    display: none;
+}
+
+.hide-scroll::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+    display: none;
+}
+
+.mn-button:active {
+    background: rgb(241, 241, 241) !important;
+}
+
